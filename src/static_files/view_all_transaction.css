@@ -1,0 +1,54 @@
+html{
+    font-size: 10px;
+}
+#filter
+{
+    display: inline;
+  
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    
+}
+#view_all_header
+{
+   background-color: #388087;
+   color: #f6f6f2;
+    width: 50%;
+    margin: 3rem;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    
+}
+#view_all_dropdown{
+    width: 15rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#all_transactions::-webkit-scrollbar{
+    width: 10px;
+}
+#all_transactions::-webkit-scrollbar-track
+{
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 10px;
+}
+#all_transactions::-webkit-scrollbar-thumb
+{
+    background-color: #388087;
+    border-radius: 10px;
+}
+#all_transactions::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(29, 29, 56);
+}
+#all_transactions
+{
+    background-color: #f6f6f2;
+    height: 68vh;
+    width: 60%;
+    margin-left: 2rem;
+    
+    overflow-y: auto;
+}

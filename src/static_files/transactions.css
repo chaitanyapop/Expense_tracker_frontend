@@ -1,0 +1,67 @@
+html{
+    font-size: 10px; 
+}
+.user_transactions{
+    background-color: #e6dede;
+    border-radius: 5px;
+    margin: 15px;
+    padding-bottom: 5px;
+}
+#expense{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(230, 51, 51)  ;
+    display: inline-block;
+}
+#category{
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: rgb(50, 47, 47);
+    margin: 1rem;
+}
+#trans_on{
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: rgb(50, 47, 47);
+    margin: 1rem;
+}
+#description{
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: rgb(50, 47, 47);
+    margin: 1rem;
+}
+.transactions{
+    margin-left: 1.4rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
+#delete_user{
+    float: right;
+    margin: 10px;
+}
+#delete_user:hover{
+    cursor: pointer;
+    color: #388087;
+
+}
+#income{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(85, 157, 85);
+    display: inline-block;
+
+}
+.category_opt
+{
+    font-size: 1.5rem;
+    color: rgb(50, 47, 47);
+    font-weight:500;
+    padding: 0.5rem;
+
+}
+.rupee{
+    
+}
+
+

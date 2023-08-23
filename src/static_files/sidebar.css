@@ -1,0 +1,11 @@
+.expense_sidebar{
+    grid-area: sidebar;
+    display: inline-block;
+    
+    background-color: #388087;
+    color: #f6f6f2;
+    border-radius: 5px;
+    
+ 
+    max-width: 100%;
+}

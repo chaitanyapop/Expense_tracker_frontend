@@ -1,0 +1,102 @@
+html{
+    size: 10px;
+}
+.dashboard_main
+{
+
+    height: 582px;
+}
+.analytical_data
+{
+    display: grid;
+    grid-template-areas: 'total_transaction total_turnover'
+                          'category_income category_expense';
+
+    grid-template-rows: 25rem 32rem;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    grid-template-columns: 60rem 60rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    
+}
+#total_transaction{
+    background-color: #f6f6f2;
+    border-radius: 2rem;
+
+}
+#total_turnover{
+    
+    background-color: #f6f6f2;
+    border-radius: 2rem;
+
+}
+#category_income{
+   
+    background-color: #f6f6f2;
+    border-radius: 2rem;
+}
+#category_expense{
+   
+    background-color: #f6f6f2;
+    border-radius: 2rem;
+
+}
+
+.table_header
+{
+    border: 1px solid grey;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: #388087;
+    color: #f6f6f2  ;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    text-align: center  ;
+}
+.user_exp
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+#Income
+{
+    color: green
+}
+#Expense
+{
+    color: red;
+}
+.total_trans_dash{
+    margin-left: 2rem;
+}
+#categorywise_income{
+    margin-top: 0.1rem;
+    margin-bottom: 0px;
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.category_transactions{
+   overflow-x: hidden ;
+   overflow-y: auto;
+}
+.category_transactions::-webkit-scrollbar{
+    width: 9px;
+}
+.category_transactions::-webkit-scrollbar-track
+{
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 10px;
+    
+}
+.category_transactions::-webkit-scrollbar-thumb
+{
+    background-color: #388087;
+    border-radius: 10px;
+}
+.category_transactions::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(29, 29, 56);
+}

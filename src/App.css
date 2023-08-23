@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  font-size: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Navigation bar*/
+#App_name{
+  color: #388087;
+  display: inline-block;
+  padding-left: 5vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size:3rem ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Navbar{
+  
+  background-color: #f6f6f2;
+  
+}
+.useractions{
+  display: inline-block;
+  padding-left: 47vw;
+}
+#Signup{
+  margin: 30px;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: #388087;
   color: white;
+  padding: 7px;
+}
+#Login{
+  margin: 30px;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: #388087;
+  color: white;
+  padding: 7px;
+
+}
+#Logout
+{
+  margin: 30px;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: #388087;
+  color: white;
+  padding: 7px;
+}
+.buttons:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+#email_user{
+  color: #388087;;
+  display: inline;
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+/*Login and signup forms*/
+.money_image{
+  grid-area: money;
+  display: inline-block;
+  
+  width: 54vw;
+}
+#money_logo{
+  width: 54vw;
+  mix-blend-mode:darken
+}
+.user_forms{
+  grid-area: user_entry;
+  display: inline-block;
+  
+  width: 44vw;
+
+}
+.user_page
+{
+  display: grid;
+  grid-template-areas: 'money money user_entry user_entry';
+}
+.login_form{
+  
+  width: 50%;
+  margin: auto;
+  margin-top: 7vh;
+  background-color:#f6f6f2;
+  padding-right: 10rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#login{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #388087;
 }
+#email{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color:#388087;
+
+}
+#password{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: #388087;
+}
+#submit{
+  display: block;
+  margin-top: 15px;
+  background-color:#388087; 
+  border-style: none;
+  color: white; 
+  padding: 1rem;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+#submit:disabled{
+  display: block;
+  margin-top: 15px;
+  background-color:#BADFE7;
+  border-style: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+#password_textbox{
+  margin-bottom: 1.5rem;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 3px;
+}
+#email_textbox{
+  
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 3px;
+}
+#submit:hover{
+  
+  cursor: pointer;
+}
+#error{
+  color:red;
+  background-color: rgb(220, 139, 139);
+  padding: 0.7rem;
+  border-radius: 1rem;
+
+}
+#errors
+{
+  color:red;
+  background-color: rgb(220, 139, 139);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+
+}
+
+
+
+
+
+
+
+

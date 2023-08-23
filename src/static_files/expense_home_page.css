@@ -1,0 +1,54 @@
+html{
+    font-size: 10px;
+}
+.expense_home_page{
+    display: grid;
+    grid-template-columns: 268px 1233px;
+    grid-template-areas:'sidebar expense_main ' ;
+    column-gap: 0px;
+    height: 100%;
+}
+.expense_sidebar
+{
+    height: 585px;
+}
+
+.expense_sidebar Link.active
+{
+    background-color: red;
+}
+.add_expense
+{
+    text-decoration: none;
+    color: #f6f6f2;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+.add_expense:hover{
+    font-size:large 
+}
+
+.add_expense_link
+{
+    text-decoration: none;
+}
+.add_expense_link_change
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f6f6f2;
+    color: black;
+}  
+.sidebar_opt{
+    text-decoration: none;
+    color: #f6f6f2;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem; 
+}
+.sidebar_opt:hover{
+    font-size:large 
+}
