@@ -85,7 +85,7 @@ export function Signup()
 
                     </form>}
                     {otp_flag && <form className='login_form' onSubmit={verify_otp}>
-                        <p className='user' id='password'>OTP sent successfully</p>
+                        <p className='user' id='password'>OTP sent successfully on Email</p>
                         <p className='user' id='password'>Enter OTP</p>
                         <input type="text" placeholder='Enter OTP' className='user' id='password_textbox' value={otp}
                         onChange={(e)=>{
